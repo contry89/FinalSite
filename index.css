@@ -1,0 +1,126 @@
+body
+{
+	margin: auto;
+}
+
+.head
+{
+	top:0px;
+    width: 100%;
+	height: 125px;
+    background-color: #32444e;
+    background: url('image/103.jpg') 0 800px;
+}
+
+.head p
+{
+    margin-top: 35px;
+    margin-left: 64%;
+    font-size: 20px;
+    color: #ADD8E6;
+    font-family: Lucida Sans, sans-serif;
+}
+
+.found
+{
+	top: 125px;
+	height: 800px;
+	background-color: #e2e5ec;
+}
+
+.menu
+{
+	left: 25px;
+	width: 200px;
+	float: left;
+	margin: auto;
+}
+
+.menu div
+{
+	color: #416391; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.menu li, a
+{
+	margin-left: -40px;
+	list-style-type: none;
+	text-decoration: none;
+}
+	
+.menu li:hover
+{
+	color: #416391;
+	background-color: #e2e5ec;	
+}
+
+.content
+{
+	left: 255px;
+	width: 1238px;
+}
+
+.content p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.menu, .content
+{
+	top: 25px;
+	height: 725px;
+	position: absolute;
+	background-color: #ffffff;
+}
+
+.bottom
+{
+	top: 900px;
+    height: 50px;
+	background-color: #32444e;
+	background: url('image/103.jpg') 0 300px;
+	background-size: 100%;
+}
+
+.bottom a
+{
+	color: #ffffff;
+	display: block;
+	text-align: center;
+}
+
+hr 
+ {
+    border: none;
+    background-color: #416391;
+    height: 3px;
+ }
+
+a, p, ul, h2
+{
+    font-size: 17px;
+	text-indent: 14pt;
+	font-family: sans-serif;
+}
+
+a, h2
+{
+	text-align: center;
+}
+
+a
+{
+	font-size: 14px;
+}
+
+.head, .found, .bottom
+{
+	left: 0px;
+	width: 1518px;
+	position: absolute;
+}
